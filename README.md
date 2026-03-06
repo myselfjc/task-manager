@@ -1,6 +1,6 @@
 # Task Manager API
 
-REST API for a Task Management system (Backend Interview Assignment). Built with **TypeScript**, **Express**, **TypeORM**, and **MySQL**.
+REST API for a Task Management system built with **TypeScript**, **Express**, **TypeORM**, and **MySQL**.
 
 ## Setup
 
@@ -63,8 +63,6 @@ The API will be at `http://localhost:3000`. MySQL will create the database on fi
 | POST   | /tasks          | Create task        |
 | PATCH  | /tasks/:id      | Update task        |
 | DELETE | /tasks/:id      | Soft delete task   |
-
-Auth and task routes are to be fully implemented per `ASSIGNMENT_DOCUMENTATION.md`.
 
 ## RBAC (roles)
 
